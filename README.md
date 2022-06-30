@@ -13,4 +13,4 @@ Nesse projeto, o objetivo foi criar uma calculadora. Assim, sempre que o usuári
 
 ## Vendo na prática
 
-![site](https://devamauryjununior-calculadora.netlify.app)
+https://devamauryjununior-calculadora.netlify.app
