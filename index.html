@@ -8,42 +8,44 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <h2>Calculadora</h2>
-    <div class="container">
-        <div class="box">
-
-            <div class="config">
-                <button id="zero" onclick="inserir('0')">0</button>
-                <button id="ponto" onclick="inserir('.')">.</button>
-                <button id="sum"  onclick="inserir('+')">+</button>
-                <button id="button">=</button>
-                <button class="limpar" id="clear">AC</button>
+    <header>
+        <h2>Calculadora</h2>
+        <div class="container">
+            <div class="box">
+    
+                <div class="config">
+                    <button id="zero" onclick="inserir('0')">0</button>
+                    <button id="ponto" onclick="inserir('.')">.</button>
+                    <button id="sum"  onclick="inserir('+')">+</button>
+                    <button id="button">=</button>
+                    <button class="limpar" id="clear">AC</button>
+                </div>
+    
+                <div class="config">
+                    <button id="item1" onclick="inserir('1')">1</button>
+                    <button id="item2" onclick="inserir('2')">2</button>
+                    <button id="item3" onclick="inserir('3')">3</button>
+                    <button id="sub" onclick="inserir('-')">-</button>
+                </div>
+                
+                <div class="config">
+                    <button id="item4" onclick="inserir('4')">4</button>
+                    <button id="item5" onclick="inserir('5')">5</button>
+                    <button id="item6" onclick="inserir('6')">6</button>
+                    <button id="mult"  onclick="inserir('*')">*</button>
+                </div>
+    
+                <div class="config">
+                    <button id="item7" onclick="inserir('7')">7</button>
+                    <button id="item8" onclick="inserir('8')">8</button>
+                    <button id="item9" onclick="inserir('9')">9</button>
+                    <button id="divi"  onclick="inserir('/')">/</button>
+                </div>
+                
+                <p id="gerar"></p>
             </div>
-
-            <div class="config">
-                <button id="item1" onclick="inserir('1')">1</button>
-                <button id="item2" onclick="inserir('2')">2</button>
-                <button id="item3" onclick="inserir('3')">3</button>
-                <button id="sub" onclick="inserir('-')">-</button>
-            </div>
-            
-            <div class="config">
-                <button id="item4" onclick="inserir('4')">4</button>
-                <button id="item5" onclick="inserir('5')">5</button>
-                <button id="item6" onclick="inserir('6')">6</button>
-                <button id="mult"  onclick="inserir('*')">*</button>
-            </div>
-
-            <div class="config">
-                <button id="item7" onclick="inserir('7')">7</button>
-                <button id="item8" onclick="inserir('8')">8</button>
-                <button id="item9" onclick="inserir('9')">9</button>
-                <button id="divi"  onclick="inserir('/')">/</button>
-            </div>
-            
-            <p id="gerar"></p>
         </div>
-    </div>
+    </header>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
